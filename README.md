@@ -30,6 +30,9 @@ Added CSS
 - Converting To Lowercase
 - Copy text
 - Remove Extra Spaces
+- Displaying the number of words and characters
+- Dark Mode
+
 
 
 &nbsp;
