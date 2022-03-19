@@ -17,21 +17,21 @@ let home = document.querySelector(".home");
 let about = document.querySelector(".about");
 let body = document.querySelector(".body");
 
-search.addEventListener("click",(e)=>{
-     e.preventDefault()   
+search.addEventListener("click", (e) => {
+  e.preventDefault();
 });
 
-navHeading.addEventListener("click",(e)=>{
-     e.preventDefault()
-}); 
+navHeading.addEventListener("click", (e) => {
+  e.preventDefault();
+});
 
-home.addEventListener("click",(e)=>{
-     e.preventDefault()
-}); 
+home.addEventListener("click", (e) => {
+  e.preventDefault();
+});
 
-about.addEventListener("click",(e)=>{
-     e.preventDefault()
-}); 
+about.addEventListener("click", (e) => {
+  e.preventDefault();
+});
 
 check.addEventListener("click", () => {
   if (nav.classList.contains("bg-light", "navbar-light")) {
