@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Text Analyzer</title>
+ <link rel="stylesheet" href="style.css">
+ 
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body class="body">
+<nav class="navbar navbar-expand-lg navbar-light bg-light"> <div class="container-fluid"> <a class="navbar-brand nav-heading" href="#">TextAnalyzer</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarSupportedContent"> <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <li class="nav-item"> <a class="nav-link active home" aria-current="page" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link about" href="#">About</a> </li></li>
+<div class="form-check form-switch switch"> 
+<input class="form-check-input check" type="checkbox" id="switch">
+<label class="form-check-label label" for="flexSwitchCheckDefault">Dark Mode</label> 
+</div>
+</ul> 
+<form class="d-flex my-2"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> <button class="btn btn-outline-success search" type="submit">Search</button> </form> </div> </div> </nav>
+<div class="al" id="aler">
+</div>
+<div class="textArea my-4">
+<div class="mb-3">
+<textarea placeholder="Enter here"class="form-control" id="mybox" rows="10"></textarea> </div>
+</div>
+<div class="mx-3">
+<button type="button" id="btn" class="btn btn-primary bts mx-2"
+onclick="settext()"><a>Uppercase</a></button>
+<button type="button" id="btn2" class="btn btn-primary mx-2 bts" onclick="settext2()"><a>Lowercase</a></button>
+<button type="button" id="btn3" class="btn btn-primary bts mx-2" onclick="settext3()"><a>Copy</a></button>
+<button type="button" id="btn4" class="btn btn-primary my-2 mx-2 bts" onclick="settext4()"><a>Clear</a></button>
+<button type="button" id="btn5" class="btn btn-primary my-2 mx-2 bts" onclick="settext5()"><a>Remove Extra Spaces</a></button>
+<button type="button" id="btn6" class="btn btn-primary bts mx-2" onclick="settext6()"><a>words and characters</a></button>
+<div class="cv"></div></div>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

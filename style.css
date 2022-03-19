@@ -1,0 +1,28 @@
+.textArea {
+  margin-top: 60px;
+  width: 90%;
+  margin-left: 15px;
+  font-size: 17px;
+}
+#btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.heading {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.div {
+  margin-top: 9px;
+}
+
+.accordion {
+  width: 95%;
+  margin-left: 10px;
+}
+
+.switch{
+  margin-left: 15px;
+  margin-top: 9px;
+}
