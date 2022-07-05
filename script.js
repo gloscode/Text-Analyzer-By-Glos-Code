@@ -17,9 +17,9 @@ let home = document.querySelector(".home");
 let about = document.querySelector(".about");
 let body = document.querySelector(".body");
 
-search.addEventListener("click", (e) => {
-  e.preventDefault();
-});
+// search.addEventListener("click", (e) => {
+//   e.preventDefault();
+// });
 
 navHeading.addEventListener("click", (e) => {
   e.preventDefault();
