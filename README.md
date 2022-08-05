@@ -9,7 +9,6 @@ Text Analyzer project using HTML, CSS, JS and Bootstrap. It is also publishable 
 
 &nbsp;
 
-
 ## File Added
 
 Added JS
@@ -23,7 +22,6 @@ Added CSS
 <link rel="stylesheet" href="style.css">
 ````
 
-
 ## Features
 
 - Converting To Uppercase
@@ -33,13 +31,9 @@ Added CSS
 - Displaying the number of words and characters
 - Dark Mode
 
-
-
 &nbsp;
 
 # Creation By
-
-
 
 ![Logo](https://img.icons8.com/ios-glyphs/344/keyboard.png)
 
